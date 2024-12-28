@@ -1,0 +1,54 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .Navbar h1 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .Searchbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .Searchbar input {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid black;
+  }
+  
+  .Searchbar button {
+    padding: 8px 20px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
